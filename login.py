@@ -11,7 +11,7 @@ WELCOME_USER_TEXT = "Welcome User"
 DURATION = 6
 DATA_IN_JSON = True
 ####MAIN FUNCTION####
-def login():
+def login(): #maybe add some else or elif statements forgot to do them
     try: #if error occurs we jump to except
         os.chdir(YOUREFOLDER) #going in folder
         with open(f"{YOUREDATA}.json", "r") as f: #opening file in read mode
